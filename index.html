@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="container main-nav">
+        <a href="./index.html" class="logo"
+          ><span class="logotype">Web</span>Studio</a
+        >
+        <nav>
+          <!-- Навігація на інші сторінки -->
+          <ul class="site-nav list">
+            <li class="item">
+              <a href="./index.html" class="link active">Студія</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link portfolio">Портфоліо</a>
+            </li>
+            <li class="item"><a href="" class="link contacts">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="auth-nav list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="contacts"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!--Section-->
+      <section class="section hero background-image">
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="button-hero">Замовити послугу</button>
+        </div>
+      </section>
+
+      <!--For experiments -->
+      <svg
+        aria-hidden="true"
+        style="position: absolute; width: 0; height: 0"
+        xmlns="http://www.w3.org/2000/svg"
+        overflow="hidden">
+        <defs>
+          <symbol id="delete" viewBox="0 0 32 32">
+            <path
+              d="M8 25.333C8 26.8 9.2 28 10.667 28h10.667c1.467 0 2.667-1.2 2.667-2.667v-16h-16v16zm17.333-20h-4.667L19.333 4h-6.667l-1.333 1.333H6.666V8h18.667V5.333z" />
+          </symbol>
+          <symbol id="camera" viewBox="0 0 32 32">
+            <path
+              d="M20.267 16a4.267 4.267 0 11-8.534 0 4.267 4.267 0 018.534 0z" />
+            <path
+              d="M12 2.667L9.56 5.334H5.333a2.675 2.675 0 00-2.667 2.667v16c0 1.467 1.2 2.667 2.667 2.667h21.333c1.467 0 2.667-1.2 2.667-2.667v-16c0-1.467-1.2-2.667-2.667-2.667h-4.227l-2.44-2.667h-8zm4 20c-3.68 0-6.667-2.987-6.667-6.667S12.32 9.333 16 9.333 22.667 12.32 22.667 16 19.68 22.667 16 22.667z" />
+          </symbol>
+          <symbol id="work" viewBox="0 0 32 32">
+            <path
+              d="M26.667 8h-5.333V5.333a2.658 2.658 0 00-2.667-2.667h-5.333a2.658 2.658 0 00-2.667 2.667V8H5.334a2.646 2.646 0 00-2.653 2.667l-.013 14.667a2.658 2.658 0 002.667 2.667h21.333a2.658 2.658 0 002.667-2.667V10.667A2.658 2.658 0 0026.668 8zm-8 0h-5.333V5.333h5.333V8z" />
+          </symbol>
+        </defs>
+      </svg>
+
+      <div class="container-for-icon">
+        <svg class="icon" width="150" height="150">
+          <use href="#delete"></use>
+        </svg>
+
+        <svg class="icon" width="150" height="150">
+          <use href="#camera"></use>
+        </svg>
+
+        <svg class="icon" width="150" height="150">
+          <use href="#work"></use>
+        </svg>
+      </div>
+
+      <div class="trial">
+        <ul class="ahah">
+          <li class="wow">
+            <a class="otakoi">
+              <svg class="trial-icon" width="25" height="25">
+                <use href="./images/Новая папка/symbol-defs.svg#icon-instagram-2-1""></use>
+              </svg>
+            </a>
+          </li>
+          <li class="wow">
+            <a class="otakoi">
+              <svg class="trial-icon" width="25" height="25">
+                <use href="./images/symbol-defs.svg#icon-instagram-2-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!--Переваги-->
+      <section class="section">
+        <div class="container">
+
+          <ul class="menu">
+      <li class="menu-item">
+      <a href="" class="menu-link">Products for home</a>
+      <ul class="submenu">
+            <li><a href="" class="element">TV</a></li>
+          <li><a href=""  class="element">Sofa</a></li>
+            <li><a href=""  class="element">Carpet</a></li>
+          </ul>
+        </li>
+      <li class="menu-item">
+         <a href="" class="menu-link">Products for garage</a>
+         <ul class="submenu">
+            <li><a href=""  class="element">Hammmer</a></li>
+          <li><a href=""  class="element">Keys</a></li>
+            <li><a href=""  class="element">Wheels</a></li>
+          </ul>
+      </li>
+        <li class="menu-item">
+       <a href="" class="menu-link">Prroducts for garden</a>
+          <ul class="submenu">
+            <li><a href="" class="element">Rake</a></li>
+          <li><a href=""  class="element">Gloves</a></li>
+            <li><a href=""  class="element">Shovel</a></li>
+          </ul>
+        </li>
+        </ul>
+
+          <h2 class="visually-hidden">Критерії ведення ефективного бізнесу</h2>
+          <ul class="features-list list">
+            <li class="item">
+              <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="paragraph">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="paragraph">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="title">ПЛАНУВАННЯ</h3>
+              <p class="paragraph">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="paragraph">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="no-padding">
+        <div class="container">
+          <h2 class="section-title2">Чим ми займаємося</h2>
+          <ul class="devices list">
+            <li class="item">
+              <img
+                src="./images/img.jpg"
+                alt="Робота за комп'ютером"
+                width="370"
+                height="294" />
+            </li>
+            <li class="item">
+              <img
+                src="./images/img1.jpg"
+                alt="Робота за телефоном"
+                width="370"
+                height="294" />
+            </li>
+            <li class="item">
+              <img
+                src="./images/img2.jpg"
+                alt="Робота за планшетом"
+                width="370"
+                height="294" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Section-->
+      <section class="people section">
+        <div class="container">
+          <h2 class="section-title2">Наша команда</h2>
+          <ul class="people list">
+            <li class="item">
+              <img
+                src="./images/img3.jpg"
+                alt="Чоловік"
+                width="270"
+                height="260" />
+              <div class="item-list">
+                <h3 class="title2">Ігор Дем'яненко</h3>
+                <p class="paragraph2">Product Designer</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./images/img4.jpg"
+                alt="Жінка"
+                width="270"
+                height="260" />
+              <div class="item-list">
+                <h3 class="title2">Ольга Рєпіна</h3>
+                <p class="paragraph2">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./images/img5.jpg"
+                alt="Чоловік"
+                width="270"
+                height="260" />
+              <div class="item-list">
+                <h3 class="title2">Микола Тарасов</h3>
+                <p class="paragraph2">Marketing</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="./images/img6.jpg"
+                alt="Чоловік"
+                width="270"
+                height="260" />
+              <div class="item-list">
+                <h3 class="title2">Михайло Єрмаков</h3>
+                <p class="paragraph2">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!--address-->
+    <footer class="footer">
+      <div class="container">
+        <a href="./index.html" class="logo-footer"
+          ><span class="logotype-footer">Web</span>Studio</a
+        >
+        <address>
+          <ul class="footer-address list">
+            <li class="item">
+              <a
+                href="https://www.google.com.ua/maps/@50.4851493,30.4721233,14z?hl=ru"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="city"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="address"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item">
+              <a href="tel:+380961111111" class="address">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
